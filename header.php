@@ -3,17 +3,9 @@
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" type="text/css" href="./css/style.css">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@1,900&family=Nanum+Gothic&family=Niconne&family=Permanent+Marker&display=swap" rel="stylesheet">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@1,900&family=Nanum+Gothic&family=Niconne&family=Permanent+Marker&display=swap" rel="stylesheet">
-  <script src="https://kit.fontawesome.com/39de285129.js" crossorigin="anonymous"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"><link href="https://fonts.googleapis.com/css2?family=IM+Fell+Great+Primer&family=Niconne&family=Open+Sans:wght@300&family=Oswald:wght@700&family=Permanent+Marker&family=Quicksand:wght@300&family=Redressed&family=Roboto&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" type="text/css" href="nsirinu.css">
   <title>Responsive Navbar</title>
 </head>
 <body>
@@ -21,7 +13,7 @@
     <header class="header" id="header">
        <div id="menu-btn" class="fa-solid fa-bars fa-2x" style="color: black">
     </div>
-      <a href="#header" class="logo"><img src="./images/logo.png" style="width:50%; margin-left: 20%;"></a>
+      <a href="#header" class="logo"><img src="./images/logo_.png" style="width:50%; margin-left: 15%;"></a>
      
    
       <nav class="navbars">
@@ -42,7 +34,6 @@ menu.onclick = () => {
 }
 </script>
 <style type="text/css">
-  
 * {
   margin: 0;
   padding: 0;
@@ -50,18 +41,16 @@ menu.onclick = () => {
   text-decoration: none;
   border: none;
   outline: none;
-  transition: all .3s linear;
 }
 
 html {
-  font-size: 100%;
   overflow-x: hidden;
   scroll-padding-top: 5rem;
   scroll-behavior: smooth;
 }
 
 section {
-  padding:3%;
+  padding: 1rem 5%;
 }
 
 header {
@@ -70,7 +59,7 @@ header {
   left: 0;
   right: 0;
   background: #f0f0f0;
-  padding: 1%;
+  padding: 1rem 5%;
   display: flex;
   justify-content: space-between;
   z-index: 1000;
@@ -84,8 +73,7 @@ opacity: 1;
 }
 
 header .logo {
-  
-  font-weight: bold;
+  font-size: 2rem;
   float: left;
 }
 
@@ -111,7 +99,6 @@ header #menu-btn {
   cursor: pointer;
 }
 
-
 header #menu-btn:hover {
 }
 
@@ -121,6 +108,10 @@ header #menu-btn:hover {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+.navbars{
+  margin-right:5%;
+
 }
 
 .navbar {
