@@ -1,47 +1,47 @@
-<?php include './sirinu/header.php'; ?>
-<div class="general_wrapper">
-           <section class="grid_container_section_1">
-                <div class="grid_container_content">
-                     <div class="grid-container_1">
-
-                         <div class="grid-content_1 yellow" scroll-reveal="grow loop">  
-                              <br><br><br><br><br>
-                              <p style="font-size: 50px; font-weight: ; text-align: left; "><strong>Build</strong> and <strong>Fund</strong> <strong>Healthcare</strong> together with <strong>Decentralized Finance!</strong></p>
-                              <p>DeFi Meets Metaverse and NFT to optimize the healthcare system. SIRINU provides access to open Healthcare using Blockchain Protocol  
-                              <br> <br>                                                   
-                              <button class="grid_container_1_button">litepaper</button></p>
-                              <br><br><br><br><br>
-                          </div>
-                            <div class="grid-content_1 blue" scroll-reveal="grow loop">  
-                               <main id="main">
-                                <div id="bounce">
-                                    <div id="bounce_image" class="flex-container">
-                                       <div class="flex-item"><img src="./sirinu/images/logo2.png"></div>
-                                    </div>
-                                </div>    
-                                <div id="umbra"></div>
-                             </main>
-                            </div>
-                      </div>
-                  </div>
-            </section><!---THIS ENDS THE SECTION FOR THE FIRST DIV---->
 
 
+<?php include 'header1.php'?>
+<div class="wrapper" style="background-color: #f0f0f0;">
+    <div class="row">
+        <div class="div_section_1">
+            <p><span>Build</span> and <span>fund</span> <span>healthcare</span> together with <span>decentralized</span> <span>finance!</span></p>
+        <h5 class="sectionss">DeFi Meets Metaverse and NFT to optimize the healthcare system.<br> Hosecoin provides access to open Healthcare using Blockchain Protocol</h5><br>
+<button class="litepaper" style="/* Layout Properties */
+">litepaper</button><br><br><br>
+
+        </div>
+
+        <div class="div_section_1_a">
+           
+            <img src="./images/logos.png" style="top: 222px;
+    left: 1038px;
+    width: 291px;
+    height: 341px;
+    /* UI Properties */
+    background: transparent url('img/Layer_x0020_1.png') 0% 0% no-repeat padding-box;
+    opacity: 1;margin-right: 110.45px;margin-top: 105px;">
+        </div>
+</div>    </div>
 
 
-
-              <!--========================THIS IS FOR THE COIN LIB MARQUEE=================--->
-             <script type="text/javascript" src="https://files.coinmarketcap.com/static/widget/coinMarquee.js"></script><div id="coinmarketcap-widget-marquee" coins="1,1027,825,3408,1839,74,3306,3635,5805,3610,4172,20314" currency="USD" theme="light" transparent="true" show-symbol-logo="true"></div>
+ <!--========================THIS IS FOR THE COIN LIB MARQUEE=================--->
+ <div style="top: 683px;;"></div>
+              <script type="text/javascript" src="https://files.coinmarketcap.com/static/widget/coinMarquee.js"></script><div id="coinmarketcap-widget-marquee" coins="1,1027,825,3408,1839,74,3306,3635,5805,3610,4172,20314" currency="USD" theme="light" transparent="true" show-symbol-logo="true"></div>
 
               <!--========================THIS IS ENDS THE COIN LIB MARQUEE=================--->
-              
+
+       
 
 
+             
 
+<style type="text/css">
+  
+</style>
 
               <!--========================THIS IS FOR THE THIRD DIV (PLEASE NOTE THE ROWS WHERE REUSED SO THE CLASSES MAY REMAIN UUNCHA=================--->
 
-           <section class="grid_container_section_2">
+           <section class="grid_container_section_2" style="background-color:#f0f0f0">
                 <div class="grid_container_content_2">
                      <div class="grid-container_1">
                          <div class="grid-content_1 yellow" scroll-reveal="grow loop"> 
@@ -51,36 +51,31 @@
                            <br><br>
                             <br><br>
 
-                         <p style="font-size:40px">About <strong>Sirinu</strong></p> 
+                         <p style="font-size:40px;margin-left: 10%;">About <strong>Sirinu</strong></p> 
                          <br>
-                              <p >Sirinu Is A Community-Based Initiative Project Aimed At Collaborating On The Manufacturing Or Transfer Of Pharmaceuticals, As Well As Other Life-Saving Drugs And Medical Equipment, In Order To Make Them Locally. Essentially, The Goal Of This Program Is To Give Researchers With New Analytical Tools That Are Easier To Comprehend.
-
-                                <br> <br>
-                              New Technologies Are Being Developed To Assist Researchers In Studying Biological Pathways And Networks That Facilitate Communication In The Pursuit Of A Collection Of Far-Reaching Initiatives Aimed At Transforming The Nation's Medical Research Capabilities And Improving Research Translation Into Practice.
-
-                                <br><br>
-                              The SIRINU Is Divided Into Three Categories: New Avenues To Discovery, Future Research Themes, And Clinical Research Reengineering. Develop And Design Health-Care Facilities, As Well As Their Construction, Operation, Maintenance, And Their Sustainability..</p>
-                              </div>
+                              <p style="text-align: left;
+font: normal normal normal 18px/30px Roboto;
+letter-spacing: 0px;
+color: #000000;
+opacity: 1;margin-left: 10%;" >Si r i n u is a community-based initiative project aimed at collaborating on the manufacturing or transfer of pharmaceuticals, as well as other life-saving drugs and medical equipment, in order to make them locally. Essentially, the goal of this program is to give researchers with new analytical tools that are easier to comprehend. New technologies are being developed to assist researchers in studying biological pathways and networks that facilitate communication in the pursuit of a collection of far-reaching initiatives aimed at transforming the nation's medical research capabilities and improving research translation into practice.<br> The SIRINU is divided into three categories: new avenues to discovery, future research themes, and clinical research reengineering. Develop and design health-care facilities, as well as their construction, operation, maintenance, and their sustainability.                              </div>
                           </div>
 
-
+<style type="text/css">#answer{margin-left: 1000%;}</style>
 
                             <!--======================THIS IS FOR THE QUESTION AND ANSWER DIV----=======================-->
 
                             <div class="grid-content_1 blue" scroll-reveal="grow loop">  
                                <div class="about_section">
                                   <div id="buttons" style="color:red">
-                                   <br><br>
-                                    <br><br>
-
-                                    <button  class="question active" onclick="document.getElementById('answer').innerHTML ='20% Of The Funds Will Be Used To Build The SIRIUN Platform And Complete Stages Up To The Framework, Which Include Group Enlightenment, Training, And The Development Budget. <br><br>SIRINU Branding And Marketing Will Take Up 9% Of The Aforementioned, As Well As Ongoing Development And Education Of SIRINU And Blockchain Advances In Industry Outlets. A Sufficient Budget Strategy For Various Promotional Activities, In Order To Help SIRINU Become Well-Known Among Financial Backers And Attract Active Clients To The Stage.<br><br>80 % Will Be Saved For Future Use In The Event Of A    Disaster Or Other Unexpected Occurrence.';">use of asset</button>
+                                   
+                                    <button  class="question active" onclick="document.getElementById('answer').innerHTML ='20% Of The Funds Will Be Used To Build The SIRIUN Platform And Complete Stages Up To The Framework, Which Include Group Enlightenment, Training, And The Development Budget. <br>SIRINU Branding And Marketing Will Take Up 9% Of The Aforementioned, As Well As Ongoing Development And Education Of SIRINU And Blockchain Advances In Industry Outlets. A Sufficient Budget Strategy For Various Promotional Activities, In Order To Help SIRINU Become Well-Known Among Financial Backers And Attract Active Clients To The Stage.<br>80 % Will Be Saved For Future Use In The Event Of A    Disaster Or Other Unexpected Occurrence.';">use of asset</button>
                                       <button class="question" onclick="document.getElementById('answer').innerHTML ='To Provide Financial Support To Pharmaceutical Firms And Medical Equipment In Order To Cultivate Standard Parasite And Bacterial Medications. To Provide Funding To Hospitals, Clinics With The Goal Of Providing The Best Possible Health Care For Parasitic And Bacterial Infections And Enhancing Medical Insurance To The People..';">our mission</button>
                                        <button class="question" onclick="document.getElementById('answer').innerHTML = 'It Will Develop A Marketplace For Patients In Africa, Europe, Asia And Other Parts Of The World To Purchase Various Medicines, Drugs, And Medical Equipment, Particularly Life-Saving Treatments And Medicines That Are Significantly More Expensive Due To Overpriced Generics At Affordable Price.';">large market</button>
                                       <button class="question" onclick="document.getElementById('answer').innerHTML = 'Co-Development Of Viruses, Their Variants, And Other Rare Disease And Life-Saving Treatments In Africa And Other Parts Of The World Through Strategic Partnerships With Healthcare Pharmaceutical Firms..';">strategic collaboration</button>
                                  </div>
 
-                                  <div id="answer" style="color:black;text-align: justify; width: 100%;">
-                                    <p>20% Of The Funds Will Be Used To Build The SIRIUN Platform And Complete Stages Up To The Framework, Which Include Group Enlightenment, Training, And The Development Budget. <br><br>SIRINU Branding And Marketing Will Take Up 9% Of The Aforementioned, As Well As Ongoing Development And Education Of SIRINU And Blockchain Advances In Industry Outlets. A Sufficient Budget Strategy For Various Promotional Activities, In Order To Help SIRINU Become Well-Known Among Financial Backers And Attract Active Clients To The Stage</p>
+                                  <div id="answer" class="answers" style="color:black;text-align: justify; width: 100%; margin-left: 3%;">
+                                    <p>20% Of The Funds Will Be Used To Build The SIRIUN Platform And Complete Stages Up To The Framework, Which Include Group Enlightenment, Training, And The Development Budget. <br>SIRINU Branding And Marketing Will Take Up 9% Of The Aforementioned, As Well As Ongoing Development And Education Of SIRINU And Blockchain Advances In Industry Outlets. A Sufficient Budget Strategy For Various Promotional Activities, In Order To Help SIRINU Become Well-Known Among Financial Backers And Attract Active Clients To The Stage.<br>80 % Will Be Saved For Future Use In The Event Of A    Disaster Or Other Unexpected Occurrence.</p>
                                  </div>
     
 
@@ -118,211 +113,284 @@
           </script>
         
 
-                 <div id="roadmap_container">
-                      <div id="slider-container">
-                               <span onclick="slideRight()" class="roadmap_btn"></span>
-                                  <div id="slider">
-                                       <div class="roadmap_slider">
-                                           <p style="">A<br>202?</p>
-                                           <a>
-                                             <ol>
-                                                <li>Form a legal entity</li>
-                                                <li>Conduct Market Research</li>
-                                                <li>Limits the payment's feasibilty</li>
-                                                <li>Verifying the business concept</li>
-                                              </ol>
-                                               <div class="button-container"></div>
-                                            </a>
-                                        </div>
-
-                                          <div class="roadmap_slider">
-                                           <p style="">B<br>202?</p>
-                                              <a>
-                                                 <ol>
-                                                   <li>Put smart contracts to the test</li>
-                                                   <li>Enlarge the core crew</li>
-                                                   <li>H-2 website</li>
-                                                   <li>Exclusive pre-sale</li>
-                                                  </ol>
-                                                   <div class="button-container"></div>
-                                              </a>
-                                           </div>
-
-                                           <div class="roadmap_slider">
-                                               <p style="">C<br>202?</p>
-                                                   <a>
-                                                       <ol>
-                                                           <li>Pancake swap public launch</li>
-                                                           <li>Andriond/IOS app launch</li>
-                                                           <li>Promotional campaign</li>
-                                                           <li>Participatory campaign</li>
-                                                        </ol>
-                                                        <div class="button-container"></div>
-                                                     </a>
-                                            </div>
-
-                                            <div class="roadmap_slider">
-                                                <p style="">D<br>202?</p>
-                                                    <a>
-                                                      <ol>
-                                                          <li>Additional exchange listing</li>
-                                                           <li>Sirinu token exchange NFT marketplace</li>
-                                                           <li>Joining huge industries on board</li>
-                                                           <li>Fiat implementation of Sirinu Token</li>
-                                                      </ol>
-                                                       <div class="button-container"></div>
-                                                    </a>
-                                            </div>
-
-                                            <div class="roadmap_slider">
-                                                <p style="">E<br>202?</p>
-                                                  <a>
-                                                   <ol>
-                                                       <li>Finding strategic advisors and partners </li>
-                                                       <li>Developing proprietory smart contracting and architecture</li>
-                                                       <li>creating an 8-year plan/vision</li>
-                                                       <li>cretion & premium</li>
-                                                    </ol>
-                                                        <div class="button-container"></div>
-                                                  </a>
-                                            </div>
-
-                                            <div class="roadmap_slider">
-                                                <p style="">F<br>202?</p>
-                                                  <a>
-                                                     <ol>
-                                                        <li>Public awareness marketing, and public relations campaign</li>
-                                                        <li>promotional campaign prior to start</li>
-                                                        <li>creating a whitelist</li>
-                                                      </ol>
-                                                        <div class="button-container"></div>
-                                                  </a>
-                                             </div>
-
-                                          <div class="roadmap_slider">
-                                            <p style="">G<br>202?</p>
-                                              <a>
-                                                  <ol>
-                                                    <li>Adding the tokens to the most popular website</li>
-                                                    <li>podcast launch</li>
-                                                    <li>first place on Gate.io</li>
-                                                  </ol>
-                                                    <div class="button-container"></div>
-                                              </a>
-                                          </div>
-
-                                <div class="roadmap_slider">
-                                    <p style="">H<br>202?</p>
-                                        <a>
-                                           <ol>
-                                               <li>Pharmaceutical company investigation</li>
-                                               <li>March-ups on the blockchain</li>
-                                               <li>increasing worldwide visibility and awareness</li>
-                                               <li>2029 pubishing roadmap</li>
-                                             </ol>
-                                                <div class="button-container"></div>
-                                         </a>
-                                </div>
-     
-      
-                      </div>
-                             <span onclick="slideLeft()" class="roadmap_btn"></span>
-                 </div>
-            </div>
+<style type="text/css">
+  /*THIS IS FOR THE FIRST ROW DIV*/
 
 
+</style>
+<div style="background-color:#f0f0f0">
+  <br>
+  <br>
+
+<div class="read"><p>read more...</p></div>
 
 
-    <script type="text/javascript">
-      var container = document.getElementById('roadmap_container')
-    var slider = document.getElementById('slider');
-    var slides = document.getElementsByClassName('roadmap_slider').length;
-    var buttons = document.getElementsByClassName('btn');
+  <br>
+  <br>
+<div class="sirinu"><span>sirinu</span> Roadmap</div>
+<div style="background-color:#f0f0f0">
+<section class="carousel-wrapper" style="background-color:#f0f0f0">
+  <button type="button" class="arrowz left-arrow arrow-inactive" aria-label="Arrow Left" style="margin-right: 5%">
+  <ion-icon name="arrow-back-outline" size="large" style="color: white;"></ion-icon>  </button>
+  <section class="carousel">
+    <div class="carousel-item">
+      <img src="./images/a.png" alt="Working">
+      <ol >
+       
+
+            <li>Form a legal entity</li>
+            <li>Conducting market research</li>
+            <li>Limiting the payment's feasibility </li>
+            <li>Verifying the business concept</li>
+            <hr class="new1" style="  border-top: 2px solid grey;width: 80%;
+">
+<button class="roadmap_button">coming soon</button>
+      </ol>
+    </div>
+    <div class="carousel-item">
+      <img src="./images/roadmap_b.png" alt="Working">
+            <ol>
+            <li>Put smart contracts to the test</li>
+            <li>Enlarge the core crew </li>
+            <li>H-2 website</li>
+            <li>Exclusive Pre-sale</li>
+            <hr class="new1" style="  border-top: 2px solid grey;width: 80%;
+">
+<button class="roadmap_button">coming soon</button>
+          
+      </ol>
+    </div>
+    <div class="carousel-item">
+      <img src="./images/roadmap_c.png" alt="Working">
+         <ol>
+            <li>Pancake swap public launch</li>
+            <li>Android/iOS App Launch</li>
+            <li>Promotional Campaign</li>
+            <li>Participatory democracy</li>
+            <hr class="new1" style="  border-top: 2px solid grey;width: 80%;
+">
+<button class="roadmap_button">coming soon</button>
+      </ol>
+    </div>
+    <div class="carousel-item">
+      <img src="./images/roadmap_d.png" alt="Working">
+         <ol>
+            <li>Additional exchange listing</li>
+            <li>lHose token NFT market place</li>
+            <li>Joining huge industrious on board</li>
+            <li>Fiat implementation of Sirinu token</li>
+            <hr class="new1" style="  border-top: 2px solid grey;width: 80%;
+">
+<button class="roadmap_button">coming soon</button>
+      </ol>
+    </div>
+    <div class="carousel-item">
+      <img src="./images/map-e.png" alt="Working">
+         <ol>
+           <li>finding strategic advisors and partners</li>
+            <li>developing proprietory smart contracting architecture</li>
+            <li>creating an 8-year plan/vision</li>
+            <li>creation and premium</li>
+            <hr class="new1" style="  border-top: 2px solid grey;width: 80%;
+"style="margin-top: ;">
+<button class="roadmap_button">coming soon</button>
+      </ol>
+    </div>
+    <div class="carousel-item">
+      <img src="mapzfta.png" alt="Working">
+         <ol>
+         
+            <li>public awareness, marketing and public relations campaign</li>
+            <li>promotional campaign prior to start</li>
+            <li>creating a whitelist</li>    <br><br>
+            <hr class="new1" style="  border-top: 2px solid grey;width: 80%;
+">
+<button class="roadmap_button">coming soon</button>
+      </ol>
+    </div>
+    <div class="carousel-item">
+      <img src="./images/roadmap_g.png" alt="Working">
+         <ol>
+            <li>Adding the tokens to the most popular website</li>
+            <li>Podcast launch</li>
+            <li>First place on Gate.io</li>
+           <br><br>
+            <hr class="new1" style="  border-top: 2px solid grey;width: 80%; 
+">
+<button class="roadmap_button">coming soon</button>
+      </ol>
+    </div>
+    <div class="carousel-item">
+      <img src="./images/roadmap-h.png" alt="Working">
+         <ol>
+            <li>pharmaceutical company investigation</li>
+            <li>March-ups on the blockchain</li>
+            <li>increasing worldwide visibility and awareness</li>
+            <li>2029 publishing roadmap</li>
+
+            <hr class="new1" style="  border-top: 2px solid grey;width: 80%;
+">
+<button class="roadmap_button">coming soon</button>
+      </ol>
+    </div>
+  </section>
+  <button type="button" class="arrowz right-arrow" aria-label="Arrow Right" style="margin-left: 5%;">
+    <ion-icon name="arrow-forward-outline" size="large" style="color: white;"></ion-icon>
+  </button>
+</section>
 
 
-    var currentPosition = 0;
-    var currentMargin = 0;
-    var slidesPerPage = 0;
-    var slidesCount = slides - slidesPerPage;
-    var containerWidth = container.offsetWidth;
-    var prevKeyActive = false;
-    var nextKeyActive = true;
 
-    window.addEventListener("resize", checkWidth);
 
-    function checkWidth() {
-        containerWidth = container.offsetWidth;
-        setParams(containerWidth);
+
+<style type="text/css">
+      @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+
+</style>
+
+<script type="text/javascript">
+      function scrollEv(leftArrow, rightArrow, carousel) {
+  if (carousel.scrollLeft <= 0) {
+    leftArrow.classList.add("arrow-inactive");
+  } else {
+    leftArrow.classList.remove("arrow-inactive");
+  }
+  if (carousel.scrollLeft >= carousel.scrollWidth - carousel.offsetWidth - 1) {
+    rightArrow.classList.add("arrow-inactive");
+  } else {
+    rightArrow.classList.remove("arrow-inactive");
+  }
+}
+
+function clicleftArrow(carousel, rectList) {
+  let shiftScroll;
+  for (let i = 0; i < rectList.length; i++) {
+    if (carousel.scrollLeft > rectList[rectList.length - 1]) {
+      shiftScroll = rectList[rectList.length - 1];
+    } else if (
+      carousel.scrollLeft > rectList[i] &&
+      carousel.scrollLeft <= rectList[i + 1]
+    ) {
+      shiftScroll = rectList[i];
     }
+  }
+  carousel.scrollTo({
+    left: shiftScroll,
+    behavior: "smooth"
+  });
+}
 
-    function setParams(w) {
-        if (w < 551) {
-            slidesPerPage = 1;
-        } else {
-            if (w < 901) {
-                slidesPerPage = 2;
-            } else {
-                if (w < 1101) {
-                    slidesPerPage = 3;
-                } else {
-                    slidesPerPage = 4;
-                }
-            }
-        }
-        slidesCount = slides - slidesPerPage;
-        if (currentPosition > slidesCount) {
-            currentPosition -= slidesPerPage;
-        };
-        currentMargin = - currentPosition * (100 / slidesPerPage);
-        slider.style.marginLeft = currentMargin + '%';
-        if (currentPosition > 0) {
-            buttons[0].classList.remove('inactive');
-        }
-        if (currentPosition < slidesCount) {
-            buttons[1].classList.remove('inactive');
-        }
-        if (currentPosition >= slidesCount) {
-            buttons[1].classList.add('inactive');
-        }
+function clickRight(carousel, rectList) {
+  let shiftScroll;
+  for (let i = 0; i < rectList.length; i++) {
+    if (
+      carousel.scrollLeft >= rectList[i] - 1 &&
+      carousel.scrollLeft < rectList[i + 1]
+    ) {
+      shiftScroll = rectList[i + 1];
     }
+  }
+  carousel.scrollTo({
+    left: shiftScroll,
+    behavior: "smooth"
+  });
+}
 
-    setParams();
+function listRectCarousel(carouselNumber, carousels) {
+  let divs = carousels[carouselNumber].getElementsByClassName("carousel-item");
+  let rectList = [];
+  let rectGauche = carousels[carouselNumber].getBoundingClientRect().left;
 
-    function slideRight() {
-        if (currentPosition != 0) {
-            slider.style.marginLeft = currentMargin + (100 / slidesPerPage) + '%';
-            currentMargin += (100 / slidesPerPage);
-            currentPosition--;
-        };
-        if (currentPosition === 0) {
-            buttons[0].classList.add('inactive');
-        }
-        if (currentPosition < slidesCount) {
-            buttons[1].classList.remove('inactive');
-        }
+  for (let i = 0; i < divs.length; i++) {
+    let rect = divs[i].getBoundingClientRect();
+    rectList.push(rect.left - rectGauche);
+  }
+
+  for (let i = rectList.length - 1; i >= 0; i--) {
+    rectList[i] = rectList[i] - rectList[0];
+  }
+  return rectList;
+}
+
+function autoSlidePosLeft(carouselNumber, carousels, leftArrows) {
+  let rectList = listRectCarousel(carouselNumber, carousels);
+  leftArrows[carouselNumber].addEventListener("click", () => {
+    clicleftArrow(carousels[carouselNumber], rectList);
+  });
+}
+
+function autoSlidePosRight(carouselNumber, carousels, rightArrows) {
+  let rectList = listRectCarousel(carouselNumber, carousels);
+  rightArrows[carouselNumber].addEventListener("click", () => {
+    clickRight(carousels[carouselNumber], rectList);
+  });
+}
+
+window.onload = () => {
+  let leftArrows = document.getElementsByClassName("left-arrow");
+  let rightArrows = document.getElementsByClassName("right-arrow");
+  let carousels = document.getElementsByClassName("carousel");
+
+  for (let i = 0; i < leftArrows.length; i++) {
+    autoSlidePosLeft(i, carousels, leftArrows);
+    window.onresize = () => {
+      autoSlidePosLeft(i, carousels, leftArrows);
     };
+  }
 
-    function slideLeft() {
-        if (currentPosition != slidesCount) {
-            slider.style.marginLeft = currentMargin - (100 / slidesPerPage) + '%';
-            currentMargin -= (100 / slidesPerPage);
-            currentPosition++;
-        };
-        if (currentPosition == slidesCount) {
-            buttons[1].classList.add('inactive');
-        }
-        if (currentPosition > 0) {
-            buttons[0].classList.remove('inactive');
-        }
+  for (let i = 0; i < rightArrows.length; i++) {
+    autoSlidePosRight(i, carousels, rightArrows);
+    window.onresize = () => {
+      autoSlidePosRight(i, carousels, rightArrows);
     };
-    </script>
+  }
+
+  for (let i = 0; i < carousels.length; i++) {
+    carousels[i].addEventListener("scroll", () => {
+      scrollEv(leftArrows[i], rightArrows[i], carousels[i]);
+    });
+  }
+
+  for (let i = 0; i < carousels.length; i++) {
+    scrollEv(leftArrows[i], rightArrows[i], carousels[i]);
+    window.onresize = () => {
+      scrollEv(leftArrows[i], rightArrows[i], carousels[i]);
+    };
+  }
+
+  /* TOGGLE OVERFLOW */
+
+  let toggleOverflow = document.getElementById("toggle");
+  toggleOverflow.addEventListener("click", () => {
+    for (let i = 0; i < carousels.length; i++) {
+      carousels[i].classList.toggle("overflow");
+      carousels[i].parentNode.classList.toggle("scrollbar-overflow");
+    }
+  });
+};
+
+</script>
+
+
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+<div style="background-color">
+
+<div style="background-color: #f0f0f0">
+
+<style type="text/css">
 
 
 
+</style>
+
+
+</div></div></body>
                 <div class="footer_section" style="background-color:#000066">
                     <footer class="footer">
                                 <div class="quickLinks">
-                                        <img src="./sirinu/images/logo3.png">
+                                        <img src="./images/logo3.png">
                                         <p>The SIRINU is a deflationary token designed for optimum utility and efficiency. Sirinu is a web3 platform that aim at providing services to charitable organizations, non-governmental organizations, global health organizations, and pharmaceutical firms for their patients' treatment programs..</p>
                                    </div>
 
@@ -346,26 +414,25 @@
 
                               <div class="socia_links_section" >
                                  <div class="social-links">
-                                        <a href=""><i class="fab fa-facebook-f"></i></a>
-                                        <a href=""><i class="fab fa-instagram"></i></a>
-                                        <a href=""><i class="fab fa-twitter"></i></a>
-                                        <a href=""><i class="fab fa-github"></i></a>
-                                        <a href=""><i class="fab fa-linkedin-in"></i></a>
+                                        <a href=""><img src="./images/iconf.png"></a>
+                                        <a href=""><img src="./images/iconl.png"></a>
+                                        <a href=""><img src="./images/icont.png"></a>
+                                        <a href=""><img src="./images/iconi.png"></a>
+                                        <a href=""><img src="./images/iconm.png"></a>
                                   </div>
                               </div>
                                <br>
 
                        </div>
                </footer>
-               <br><br><br>
    
                 <hr class="new1">
-                <h5>Copyright © 2022 Sirinu All Rights Reserved.</h5>
+                <h5>© Copyright </h5>
                 <br><br>
         </div>
-</div>     
-</body>
-</html>
-                  
+</div>  
 
 
+<style type="text/css">
+  
+</style>
