@@ -1,10 +1,44 @@
-/*THIS IS FOR THE FIRST ROW DIV*/
 
+/*THIS IS FOR THE FIRST ROW DIV (ROW 1)*/
 
+.sectionss{
+
+  top: 492px;
+/* UI Properties */
+text-align: left;
+font: normal normal normal 18px/30px Roboto;
+letter-spacing: 0px;
+color: #000000;
+opacity: 1;
+  }
+
+  .litepaper:hover{
+     background: #fff;
+  box-shadow:  0px 3px 8px #afafaf;
+
+  color: #ff0000;
+  }
+
+  .litepaper{
+    top: 579px;
+left: 118px;
+width: 200px;
+height: 60px;
+/* UI Properties */
+background: #FF0000 0% 0% no-repeat padding-box;
+border-radius: 10px;
+opacity: 1;color: white;
+  }
+
+  /*THIS ENDS THE FIRST ROW DIV*/
+
+  /*THIS IS FOR THE CHANGE IN ANIMATIONS AND ABOUT SIRINU DIV */
 *{
-
 }
 
+#answer{
+  margin-top: 40px;
+}
 
 .grid-container_1 {
     background:url(bck.jpg);
@@ -14,7 +48,6 @@
   grid-row-gap: 5px;
   justify-items: center;
 }
-
 
 
 #grid-container_1{
@@ -80,82 +113,6 @@ opacity: 1;
   color: #ff0000;
 }
 
-.flex-item {
-  flex-grow: 0;
-  flex-basis: auto;
-  flex-shrink: 1;
-}
-
-.flex-container {
-  display: flex;
-  flex-flow: row nowrap;
-  align-items: stretch;
-  justify-content: space-around;
-}
-
-#main {
-  top: 45%;
-  position: absolute;
-  transform: translate(-50%, -50%);
-}
-
-/*THIS IS FOR THE ANIMATED BOUNCING IMAGE*/
-
-#bounce {
-  margin-top: 10%;
-  animation: float 2s infinite;
-}
-
-#bounce_image img{
-  margin-top: 15%;
-}
-
-
-
-@keyframes float {
-  0%,
-  100% {
-    transform: translateY(0%);
-  }
-  50% {
-    transform: translateY(5%);
-  }
-}
-
-@keyframes scale {
-  0%,
-  100% {
-    transform: scale(0.8);
-  }
-
-  50% {
-    transform: scale(0.9);
-  }
-}
-
-@media screen and (max-width: 600px) {
-
-
-.grid-content_1 img{
-display: none;}
-
-
-.grid-content_1 p{
-    margin-left: 20%;
-}
-
-
-}
-
-
-.about_section h1{
-    text-align: left;
-    margin-left: 10%;
-}
-
-/*-------===============THIS ENDS THE FIRST ROW DIV---------------*/
-/*-------===============THIS IS FOR THE CHANGE SECTION ANIMATION---------------*/
-
 .about_section p{
 
 }
@@ -211,9 +168,6 @@ opacity: 1;
 }
 
 
-#answer{
-     
-}
 
 .first_answer p{
     text-align: left;
@@ -223,33 +177,18 @@ color: green;
 opacity: 1;
 }
 
-#answer {
-  box-sizing: border-box;
-  margin-top: 2%;
-  width: 70%;
-  min-width: 50%;
-  height: ;
-  left: 5%;
-  background:  transparent;
-  padding: 20px;
-  text-align: left;
-font: normal normal normal 18px/32px Roboto;
-letter-spacing: 0px;
-color: orange;
-opacity: 1;
-}
 
 .answers{
 font: normal normal normal 18px/32px Roboto;
 }
 
-#answer p{
+.answers p{
     text-align: left;
     left: 825px;
     margin-left: 6%;
 font: normal normal normal 18px/32px Roboto;
 letter-spacing: 0px;
-color: #000000;
+color: black;
 opacity: 1;
 }
 
@@ -270,7 +209,6 @@ opacity: 1;
 footer {
   padding-top: 20px;
   margin-top: 20px;
-  font-style: italic;
 }
 
 .question {
@@ -296,147 +234,400 @@ footer {
 @media screen and (max-width: 600px) {
   .question {
     font-size: 5px;
-  }}
-/*-------===============THIS IS FOR THE CHANGE SECTION ANIMATION---------------*/
-
-/*---==========================THIS IS FOR THE ROADMAP DIV----===============*/
- .roadmap_button{
-    background-color: #000066;
-    padding: 3%;
-    width: 8%;
-    height: 50vh;
-    border-radius: 15%;
   }
 
-  .button-container{
-    margin-top: 15%;
-  }
-
-    .roadmap_slider a{
-      color: BLACK;
-      text-decoration: NONE;
-      text-align: left;
-    }
-
-  #roadmap_container {
-  width: 100vw;
-  margin: 0;
-  background-color: transparent;
-  padding: 0;
-  display: grid ;
-  place-items: center
+.div_section_1_a img{
+  display: none;
 }
 
-.roadmap_slider p{
-    background-color: #000066; 
-    border-radius: 50%;
-    padding:5%;
-    text-align: center; 
-     color:white; 
-     font-weight: bolder;
+.div_section_1 {
 }
 
-#slider-container {
-  height: 300px;
-
-  width: 85vw;
-  max-width: 1400px;
-  background: transparent;
-  position: relative;
-  overflow: hidden;
-  padding: 20px;
+.div_section_1{
+  font-size: ;
 }
 
-#slider-container .roadmap_btn {
-  position: absolute;
-  top: calc(50% - 30px);
-  height: 30px;
-  width: 30px;
-  border-left: 8px solid #000066;
-  border-top: 8px solid #000066;
-}
-
-#slider-container .roadmap_btn:hover {
-  transform: scale(1.2);
-}
-
-#slider-container .roadmap_btn.inactive {
-  border-color: rgb(153, 121, 126)
-}
-
-#slider-container .roadmap_btn:first-of-type {
-  transform: rotate(-45deg);
-  left: 10px
-}
-
-#slider-container .roadmap_btn:last-of-type {
-  transform: rotate(135deg);
-  right: 10px;
-}
-
-#slider-container #slider {
-  display: flex;
-  width: 1000%;
-  height: 100%; 
-  transition: all .5s;
-}
-
-#slider-container #slider .roadmap_slider {
-  height: 90%;
-  margin: auto 10px;
+.row{
   display: grid;
-  place-items: center;
+}
 }
 
-#slider-container #slider .roadmap_slider span {
-  color: white;
-  font-size: 15px;
-  text-align: center;
+/*-------===============THIS IS ENDS  THE CHAGE ANIMATIONSECTION ---------------*/
 
+/*-------===============THIS IS FOR THE roamdap SECTION ---------------*/
+.carousel-item ol li{
+  font-size: 12px;
+  font-weight: bold;
+    padding-bottom: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
-.button{
-  margin-left: 20%;
-  padding: 5%;
-  width: 25%;
-  border-radius: 15%;
+
+.roadmap_button{
+  top: 2151px;
+left: 351px;
+width: 204px;
+height: 60px;
+background: #000066 0% 0% no-repeat padding-box;
+border: 3px solid #FFFFFF;
+border-radius: 25px;
+opacity: 1;
+color: white;
+margin-top: 15px;
+}
+
+
+
+.sirinu span{
+  top: 0px;
+left: 128px;
+width: 138px;
+height: 63px;
+/* UI Properties */
+text-align: left;
+font: normal normal bold 48px/63px Roboto;
+letter-spacing: 0px;
+color: #000000;
+text-align: center;
+}
+
+.sirinu{
+
+/* UI Properties */
+background-color: #f0f0f0s;
+text-align: left;
+font: normal normal normal 48px/63px Roboto;
+letter-spacing: 0px;
+color: #000000;
+background-color: #f0f0f0;
+text-align: center;
+}
+
+.read{
+  background-color:#f0f0f0 ;
+  margin-left: 130px;
+  color: #dfdbdb;
+  margin-top: ;
+}
+
+
+
+
+
+
+
+hr.new1 {
+  margin-top: 30%;
+}
+
+.carousel-item ol li{
+  height: 30px;
+}
+
+.carousel-wrapper {
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  max-width: 800px;
+  width: 90%;
+}
+
+
+.carousel {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  overflow-y: hidden;
+  display: flex;
+  scrollbar-width: none;
+}
+
+.arrowz {
+  width: 50px;
+  height: 45px;
+  outline: none;
+  border: none;
   background-color: #000066;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-self: center;
+  opacity: 1;
+  cursor: pointer;
+  transition: all 0.1s ease;
+  padding: 0;
+  pointer-events: all;
 }
 
-
-.btn{
+.arrowz:hover {
+  background-color: #5e4c5a;
+  transform: scale(1.1);
 }
-@media only screen and (min-width: 1100px) {
 
-  #slider-container #slider .roadmap_slider {
-    width: calc(2.5% - 20px);
+.arrowz svg {
+  width: 1.5em;
+  height: 1.5em;
+  fill: white;
+}
+
+.arrow-inactive {
+  opacity: 0.5;
+  cursor: auto;
+}
+
+.arrow-inactive:hover {
+  transform: none;
+}
+
+.carousel-item {
+  width: px;
+  height: px;
+  margin-left: px;
+}
+
+.carousel-item img {
+
+}
+
+input[type="checkbox"] {
+  height: 0;
+  width: 0;
+  visibility: hidden;
+}
+
+label {
+  color: white;
+  cursor: pointer;
+  width: 50px;
+  height: 30px;
+  background: #5e4c5a;
+  display: block;
+  border-radius: 100px;
+  position: relative;
+}
+
+label:after {
+  content: "";
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  width: 20px;
+  height: 20px;
+  background: #fff;
+  border-radius: 90px;
+  transition: 0.3s;
+}
+
+input:checked + label {
+  background: #ef8354;
+}
+
+input:checked + label:after {
+  left: calc(100% - 5px);
+  transform: translateX(-100%);
+}
+
+label:active:after {
+  width: 20px;
+}
+
+input:checked + label #off {
+  display: none;
+}
+
+:not(input:checked) + label #on {
+  display: none;
+}
+
+#off {
+  justify-content: flex-end;
+  font-size: 0.65rem;
+}
+
+#toggle-overflow {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 0.25em;
+  color: #5e4c5a;
+  font-size: 0.75rem;
+}
+
+.overflow {
+  overflow-x: auto;
+  scrollbar-width: thin;
+}
+
+.carousel-wrapper.scrollbar-overflow ::-webkit-scrollbar {
+  height: 6px;
+}
+
+.carousel-wrapper ::-webkit-scrollbar {
+  height: 0px;
+}
+
+.carousel-wrapper ::-webkit-scrollbar-track {
+  background: #c0b6af;
+  border-radius: 10pt;
+}
+
+.carousel-wrapper ::-webkit-scrollbar-thumb {
+  background: #5e4c5a;
+  border-radius: 10pt;
+}
+
+.carousel-wrapper ::-webkit-scrollbar-thumb:hover {
+  background: #2d242b;
+}
+
+@media (pointer: coarse) {
+  .carousel {
+    overflow-x: auto;
+    scrollbar-width: thin;
   }
-
-}
-
-@media only screen and (max-width: 1100px) {
-
-  #slider-container #slider .roadmap_slider {
-    width: calc(3.3333333% - 20px);
+  .carousel-wrapper ::-webkit-scrollbar {
+    height: 6px;
+    margin-left: 5%;
   }
+}
+
+
+*{
+    font-family: roboto;
+    
+}
+  .row{
+  grid-column: 1fr 1fr;
+  justify-content: space-between;
+  display: inline-flex;
+}
+
+.div_section_1{
+    margin-right: 200.06px;
+    margin-left: 111px;
+    margin-top: 105px;
+}
+
+.div_section_1 p span{
+    font-family: roboto medium;
+    top: 0px;
+left: 0px;
+height: 84px;
+/* UI Properties */
+text-align: left;
+font: normal normal 900 64px/70px Roboto;
+letter-spacing: 0px;
+color: #1E1D1D;
+}
+
+
+.div_section_1 p{
+    text-align: left;
+font: normal normal 300 64px/70px Roboto;
+letter-spacing: 0px;
+color: #1E1D1D;
+}
+
+
+
+
+
+
+
+
+.about_sirinu h5{
+    /* Layout Properties */
+    margin-top: 114px;
+top: 0px;
+left: 0px;
+margin-left: 111px;
+
+/* UI Properties */
+text-align: left;
+font: normal normal normal 48px/63px Roboto;
+letter-spacing: 0px;
+color: #000000;
+}
+
+.about_sirinu h5 span{
+   margin-top: ;
+font: normal normal bold 48px/63px Roboto;
 
 }
 
-@media only screen and (max-width: 900px) {
+.about_sirinu p{
+    margin-top: 26px;
+    margin-left: 111px;
+    /* Layout Properties */
+top: 946px;
+left: 114px;
+width: 600px;
+height: 442px;
+/* UI Properties */
+text-align: left;
+font: normal normal normal 20px/32px Roboto;
+letter-spacing: 0px;
 
-  #slider-container #slider .roadmap_slider {
-    width: calc(5% - 20px);
-  }
+color: #000000;
+opacity: 1;
+}
+
+
+
+/*responsive*/
+@media(max-width: 767px){
+  .footer-col{
+    width: 50%;
+    margin-bottom: 30px;
+}
+}
+@media(max-width: 574px){
+  .footer-col{
+    width: 100%;
+}
+
+
+
+
+.div_section_1{
+    margin-right: 40px;
+    margin-left: 15px;
+    margin-top: 5px;
+}
+
+.div_section_1 p span{
+    font-family: roboto medium;
+    top: 0px;
+left: 0px;
+height: 84px;
+/* UI Properties */
+text-align: left;
+font-size:45px;
+letter-spacing: 0px;
+color: #1E1D1D;
+}
+
+
+.div_section_1 p{
+    text-align: left;
+font-size: 45px;
+letter-spacing: 0px;
+color: #1E1D1D;
+}
+.sectionss{
+}
 
 }
 
-@media only screen and (max-width: 550px) {
 
-  #slider-container #slider .roadmap_slider {
-    width: calc(10% - 20px);
-  }
 
-}
+
+
+
+
 
 
 /*-----=================THIS ENDS THE ROADMAP DIV--=====================*/
@@ -574,7 +765,6 @@ list-style-type: none}
 }
 
 .social-links a {
-  background-color: #fff;
   width: 40px;
   height: 40px;
   text-align: center;
@@ -582,7 +772,6 @@ list-style-type: none}
   color: #000;
   box-shadow: 0 0 20px 10px rgba(0, 0, 0, 0.05);
   margin: 0 13px;
-  border-radius: 50%;
   position: relative;
   overflow: hidden;
   transition: transform 0.5s;
@@ -596,22 +785,9 @@ list-style-type: none}
   transition: color 0.5s;
 }
 
-.social-links a::after {
-  content: '';
-  width: 100%;
-  height: 100%;
-  top: -90px;
-  left: 0;
-  background: #000;
-  background-color: #7171b8;
-  position: absolute;
-  transition: 0.5s;
-}
 
-.social-links a:hover::after {
-  top: 0;
-}
 
+.s
 .social-links a:hover .fab {
   color: #fff;
 }
@@ -620,3 +796,4 @@ list-style-type: none}
   transform: translateY(-10px);
 }
 
+/*this ends the footer*/
