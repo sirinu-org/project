@@ -1,6 +1,6 @@
 
 
-<?php include 'header1.php'?>
+<?php include 'header.php'?>
 <div class="wrapper" style="background-color: #f0f0f0;">
     <div class="row">
         <div class="div_section_1">
@@ -13,7 +13,7 @@
 
         <div class="div_section_1_a">
            
-            <img src="./images/logos.png" style="top: 222px;
+            <img src="./images/logo.png" style="top: 222px;
     left: 1038px;
     width: 291px;
     height: 341px;
@@ -134,7 +134,7 @@ opacity: 1;margin-left: 10%;" >Si r i n u is a community-based initiative projec
   <ion-icon name="arrow-back-outline" size="large" style="color: white;"></ion-icon>  </button>
   <section class="carousel">
     <div class="carousel-item">
-      <img src="./images/a.png" alt="Working">
+      <!-- <img src="./images/logo.png" alt="Working"> -->
       <ol >
        
 

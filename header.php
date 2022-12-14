@@ -5,7 +5,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"><link href="https://fonts.googleapis.com/css2?family=IM+Fell+Great+Primer&family=Niconne&family=Open+Sans:wght@300&family=Oswald:wght@700&family=Permanent+Marker&family=Quicksand:wght@300&family=Redressed&family=Roboto&display=swap" rel="stylesheet">
 
-<link rel="stylesheet" type="text/css" href="nsirinu.css">
+<link rel="stylesheet" type="text/css" href="./css/style.css">
   <title>Responsive Navbar</title>
 </head>
 <body>
@@ -13,7 +13,7 @@
     <header class="header" id="header">
        <div id="menu-btn" class="fa-solid fa-bars fa-2x" style="color: black">
     </div>
-      <a href="#header" class="logo"><img src="./images/logo_.png" style="width:50%; margin-left: 15%;"></a>
+      <a href="#header" class="logo"><img src="./images/Sirinu-Logo@2x.png" style="width:50%; margin-left: 15%;"></a>
      
    
       <nav class="navbars">
